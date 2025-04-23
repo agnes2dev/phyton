@@ -1,0 +1,72 @@
+##Calculadora Básica
+#Escreva um programa que receba dois númerose mostre a soma, subtração, multiplicação e divisão entre eles.
+
+
+print(f"Calculadora básica em PHYTON pra refrescar a mente")
+print(f"Escolha uma opção. 1- Soma | 2- Subtração | 3- Multiplicação | 4- Divisão")
+opcao = (input(f"Opção:   "))
+
+if opcao == "1":
+
+    print(f"você escolheu a opção de soma. Digite os números que quer somar.")
+    soma1 = float(input("Numero 1:  "))
+    soma2= float(input("Numero 2:  "))
+    resultado1 = soma1 + soma2
+
+    print(f"O resultado da soma foi {resultado1}.")
+
+    print(f"Opção 1- continuar somando | Opção 2- Voltar para o menu")
+    print(f"Digite uma opção:   ")
+    opcao2 = (input(""))
+    if opcao2 == "2":
+        exit
+    
+#fazer return pro menu dps
+    
+elif opcao == "2":
+    print(f"você escolheu a opção de Subtração. Digite os números que quer somar.")
+    sub1 =float(input("Numero 1 "))
+    sub2 = float(input("Numero 2"))
+    resultado2 = sub1 - sub2
+    
+    print(f"O resultado da Subtração foi {resultado2}.")
+    
+    print(f"Opção 1- continuar subtração | Opção 2- Voltar para o menu")
+    print(f"Digite uma opção:   ")
+    opcao3 = (input(""))
+    if opcao3 == "2":
+        exit
+        
+elif opcao == "3":
+    print(f"você escolheu a opção de Multiplicação. Digite os números que quer somar.")
+    mult1 = float(input("Numero 1:  "))
+    mult2 = float(input("Numero 2:  "))
+    resultado3 = mult1 * mult2
+    print(f"O resultado da Multiplicação foi {resultado3}.")
+
+
+    print(f"Opção 1- continuar mutiplicação | Opção 2- Voltar para o menu")
+    print(f"Digite uma opção:   ")
+    opcao4 = (input(""))
+    if opcao4 == "2":
+        exit
+
+
+elif opcao == "4":
+    print(f"você escolheu a opção de Divisão. Digite os números que quer somar.")
+    div1 = float(input("Numero 1:  "))
+    div2 = float(input("Numero 1:  "))
+    resultado4 = div1 / div2
+    resultado5 = div1 % div2
+    print(f"O resultado da divisão foi {resultado1}. O resto da divisão é {resultado5}")
+
+    print(f"Opção 1- continuar divisão | Opção 2- Voltar para o menu")
+    print(f"Digite uma opção:   ")
+    opcao5 = (input(""))
+    if opcao5 == "2":
+        exit
+
+#fazer for para o menu depois
+
+else:
+    print("Erro inesperado. Tente novamente.")
