@@ -1,0 +1,14 @@
+#3. **Verificar vogal ou consoante:**
+    
+    #Peça ao usuário para digitar uma letra e verifique se é uma vogal (`a, e, i, o, u`) ou consoante.
+
+
+print("Olá. Esse programa verifica se você digitou uma vogal ou consoante. Faça um teste! :)")
+letra = input("Digite aqui sua letra: ").lower()
+
+vogais = ("a", "e", "i", "o", "u") 
+
+if letra in vogais:
+    print("Você digitou uma vogal!")
+else:
+    print("Você digitou uma consoante!")
