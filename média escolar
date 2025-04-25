@@ -1,0 +1,19 @@
+# Média Aritmética
+#Peça ao usuário três notas e calcule a média aritmética.
+
+
+print(f"Bem vindo ao sistema de médias escolares.")
+nome = str(input("Digite o nome do aluno:   "))
+print(f"Insira 3 notas para que o programa calcule a média.")
+nota1= float(input(f"Digite uma nota:  "))
+nota2 = float(input(f"Digite a segunda nota:  "))
+nota3 = float(input(f"Digite a teceira nota:  "))
+
+resultado = nota1 + nota2 + nota3
+media = resultado / 3
+
+if resultado <= 5:
+    print(f"A média do(a) anluno(a) {nome} é {media}. O aluno foi reprovado.")
+
+elif resultado >= 6:
+    print(f"A média do(a) anluno(a) {nome} é {media}. O aluno foi aprovado.")
