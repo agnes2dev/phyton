@@ -1,0 +1,23 @@
+#Exercícios com Operadores Relacionais
+#Maior ou Menor
+#Receba dois números e verifique se o primeiro é maior, menor ou igual ao segundo.
+
+
+print("Bem vindo ao programação de compração de números.")
+print("Digite dois números, e eles são comparados. Obs: apenas números inteiros.")
+
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número:  "))
+
+if num1 > num2:
+    print (f" {num1} é maior que {num2}")
+    
+elif num1 < num2:
+    print (f"{num1} é menor que {num2}")
+
+elif num1 == num2:
+    print(f"{num1} é igual ao {num2}")
+
+else:
+    print("NÚMERO INVÁLIDO")
+
