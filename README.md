@@ -1,4 +1,4 @@
-# phyton
+# phyton 1
 Jornada de aprendizados na linguagem Phyton, do zero ao avançado.
 
 O que você vai encontrar aqui em códigos práticos e materiais:
