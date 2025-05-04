@@ -1,0 +1,39 @@
+#Acesso Restrito
+#Crie um sistema que verifique se uma
+#senha digitada é "admin123" E se o usuário é "admin".
+
+usuario_salvo = "admin"
+senha_salva = "admin123"
+
+print(f"Bem vindo ao sistema da livraria.")
+print(f"Opções: 1- Login | 2- Buscar por livros ")
+
+opcao = int(input(f"Digite uma opção:  "))
+
+if opcao == 1:
+    print( "-" *20)
+    print(f"-----------  Login  -----------")
+
+    print()
+    print(f"Usuário")
+    usuario = (str(input(f"Digite aqui o usuário:  ")))
+    print()
+    
+    print(f"Senha")
+    senha = (str(input(f"Digite aqui sua senha:  ")))
+
+    if senha == "admin123" and usuario == "admin":
+        print( "-" *20)
+        print()
+        print(f"Login efetuado com sucesso! Bem vindo de volta." )
+        print()
+        print( "-" *20)
+
+        
+    elif senha != senha_salva or usuario != usuario_salvo:
+        print(f"Senha ou usuário incorretos!")
+
+
+    else:
+        print(f"Erro. digite um valor válido e tente novamente.")
+
