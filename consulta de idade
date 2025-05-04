@@ -1,0 +1,21 @@
+#Exemplo prático com operadores de comparação/relacionais
+
+#Verificador de Idade
+#Peça a idade do usuário e verifique se ele é maior de idade (>= 18).
+
+
+print(f"Olá. Qual é o seu nome?")
+nome_usuario = input(f"Digite seu nome:  ")
+
+print(f"Boas vindas {nome_usuario}. Qual sua idade?")
+idade = (int(input(f"Digite aqui sua idade:   ")))
+
+
+if idade <= 17:
+    print(f"{nome_usuario}, você é menor de idade, e tem {idade}.")
+    
+elif idade >= 18:
+    print(f"{nome_usuario}, você é maior de idade, e tem {idade}.")
+    
+else:
+    print("erro")
